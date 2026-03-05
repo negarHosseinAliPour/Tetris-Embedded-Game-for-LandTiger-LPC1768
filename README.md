@@ -71,3 +71,30 @@ Tetris is a classic block-stacking game where **tetrominoes** fall from the top.
 ---
 
 ## Repository Structure
+Tetris-LandTiger/
+│
+├── Source/ # Source code (.c and .h files)
+├── KeilProject/ # Keil project files (.uvprojx, .uvoptx)
+├── docs/ # Optional documentation
+└── README.md # Project description
+
+
+*Generated build folders (Objects, Listings, DebugConfig) are excluded for a clean repository.*
+
+---
+
+## How to Run
+1. Open `sample.uvprojx` in Keil µVision  
+2. Select **SW_Debug** target for emulator testing  
+3. Build and run the project  
+4. Press **KEY1** to start; the game begins in paused mode  
+5. Use joystick and **KEY2** for gameplay  
+
+---
+
+## Author
+**Embedded Systems Project – University Assignment**  
+
+Demonstrates **C programming**, **embedded game development**, and **real-time hardware interaction**.
+
+
